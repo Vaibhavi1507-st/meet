@@ -38,3 +38,25 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+ HEAD
+
+
+/transcripts
+/feedback-reports
+/.feedback-data
+/.transcript-data/
+
+
+# Environment secrets
+.env*
+!.env.example
+!**/.env.example
+**/.env.local
+
+# Dependencies and generated files
+node_modules/
+**/node_modules/
+**/.venv/
+**/venv/
+__pycache__/
+*.pyc
